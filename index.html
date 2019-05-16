@@ -3,32 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>The Key Press</title>
-    <link rel="stylesheet" href="css/master.css">
+    <link rel='stylesheet' href='css/style.css'>
   </head>
   <body>
-    <h1>Main Logos</h1>
-    <h2>Keyboard Key Logo</h2>
-    <img src="img/KeyPressKeyLogo.png">
-    <h2>KP w/ Dripping Stamp</h2>
-    <img src="img/KeyPressLarge.png">
-    <br>
-    <h2>Hybrid Logo</h2>
-    <img src="img/HybridLogo.png">
-    <h1>Smaller Logos</h1>
-    <h2>Finger Hard Press</h2>
-    <img src="img/FingerHardPress.png" alt="">
-    <br>
-    <h2>Finger and Key/Dripping Stamp Logo</h2>
-    <img src="img/FingerCartoon.png">
-    <br>
-    <h2>Dripping Stamp Logo</h2>
-    <img src="img/StampDrop.png">
-    <br><br>
-    <a href="http://about.the-key-press.com">About</a>
-    <a href="http://blog.the-key-press.com">Blog</a>
-    <a href="http://portfolio.the-key-press.com">Portfolio</a>
+    <header id='top' class='main-header'>
+      <h1 id='main-title'>The Key Press</h1>
+      <h2 id='main-subtitle'>Creation Through Code</h2>
+      <nav>
+        <ul class='main-site-nav'>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class='primary-content t-border'>
+      <h2 class='section-header'>Highlighted Projects</h2>
+      <div id='projects' class='group projects'>
+        <section class='project first-project'>
+          <img src='img/the_mummy_processed.png' alt='Sample output of Nesting Pixels Program'>
+          <header>
+            <h2>Nesting Pixels</h2>
+            <p>Project Author: Bryce Tucker  |  Project Date: February 2018  |  Language: Python</p>
+          </header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </section>
+        <section class=' project second-project'>
+          <img src="img/sastantua.png" alt='Sample Output of Sastantua'>
+          <header>
+            <h2>Sastantua</h2>
+            <p>Project Author: Bryce Tucker  |  Project Date: July 2018  |  Language: C</p>
+          </header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </section>
+      </div>
+    </div>
+    <div id='blog' class='secondary-content t-border'>
+        <h2 class='section-header'>Latest Blog Entries</h2>
+        <section>
+          <header class='blog-header'>
+            <h2>First Blog Post</h2>
+            <p>By: Bryce Tucker  |  Date: 5/13/2019</p>
+          </header>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </section>
+        <section>
+          <header>
+            <h2>Creating a Website from the Ground Up</h2>
+            <p>By: Bryce Tucker  |  Date: 5/13/2019</p>
+          </header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </section>
+    </div>
+    <div id='about' class='secondary-content t-border'>
+      <h2 class='section-header'>About</h2>
+      <section>
+        <header>
+          <h3>About The Key Press</h3>
+        </header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </section>
+      <section>
+        <header>
+          <h3>About Me</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </header>
+      </section>
+    </div>
+
+    <footer id='main-footer' class='t-border'>
+      <p>&copy; 2019 The Key Press </p>
+    </footer>
   </body>
-  <footer>
-    The Key Press 2019
-  </footer>
 </html>
